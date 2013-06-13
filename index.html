@@ -1,0 +1,146 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Designs by Dev</title>
+
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+    <link href='http://fonts.googleapis.com/css?family=Handlee' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Pathway+Gothic+One' rel='stylesheet' type='text/css'>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+
+<body>
+
+<!--Home Nav Click-->
+<div data-role="page" id="home">
+  	<!--
+    <footer data-role="footer" class="fstandard" >
+            <div data-role="navbar">
+                <ul>
+                    <li><a href="#home" data-transition="slide">Home</a></li>
+                    <li><a href="#portfolio" data-transition="slide">Portfolio</a></li>
+                    <li><a href="#contact" data-transition="slide">Contact Me</a></li>
+                </ul>
+            </div>
+    </footer>
+    -->
+     <img src="images/IMG_1214.jpg" id="aboutmeimg">
+      
+     <h1 id="getting"> Get to Know Me. </h1>
+     	<p id="aboutmep"> <b> Hi! </b> My name is Devyn but most people call me Dev! I live in Eastern Washington State, and I just graduated from Eastern Washington University with a degree in Visual Communication and Design. Currently I work as a Barista (Starbucks HOLLA!) and am doing freelance graphic design on the side. Have a look around my mobile site, and enjoy! </p>
+    
+    <div data-role="footer" data-id="myfooter" data-position="fixed" class="ui-bar" id="footbar">
+       		<div data-role="controlgroup" data-type="horizontal" id="navvv">
+                <a href="#home" data-transition="slide" data-icon="home" id="homebar">Home</a>
+                <a href="#portfolio" data-transition="slide" data-icon="grid">Work</a>
+                <a href="#contact" data-transition="slide" data-icon="edit">Contact</a>
+      		</div>
+	</div>
+        
+ </div>
+ 
+ <!--Portfolio Nav Click-->
+ 
+ <div data-role="page" id="portfolio">
+    	<div data-role="footer" data-id="myfooter" data-position="fixed" class="ui-bar" id="footbar">
+       		<div data-role="controlgroup" data-type="horizontal" id="navvv">
+                <a href="#home" data-transition="slide" data-icon="home" id="homebar">Home</a>
+                <a href="#portfolio" data-transition="slide" data-icon="grid">Work</a>
+                <a href="#contact" data-transition="slide" data-icon="edit">Contact</a>
+      		</div>
+	</div>
+    <h1> Here is some of my work! </h1>
+    <a href="#popupParis" data-rel="popup" data-position-to="window" data-transition="fade"><img class="popphoto" src="images/victorialewis4.pdf" alt="Paris, France" style="width:30%"></a>
+<a href="#popupSydney" data-rel="popup" data-position-to="window" data-transition="fade"><img class="popphoto" src="images/businesscardtogether.pdf" alt="Sydney, Australia" style="width:30%"></a>
+<a href="#popupNYC" data-rel="popup" data-position-to="window" data-transition="fade"><img class="popphoto" src="images/baby.jpeg" alt="New York, USA" style="width:30%"></a>
+<div data-role="popup" id="popupParis" data-overlay-theme="a" data-theme="d" data-corners="false">
+    <a href="#" data-rel="back" data-role="button" data-theme="a" data-icon="delete" data-iconpos="notext" class="ui-btn-right">Close</a><img class="popphoto" src="images/victorialewis4.pdf" style="max-height:512px;" alt="Paris, France">
+</div>
+
+
+<div data-role="popup" id="popupSydney" data-overlay-theme="a" data-theme="d" data-corners="false">
+    <a href="#" data-rel="back" data-role="button" data-theme="a" data-icon="delete" data-iconpos="notext" class="ui-btn-right">Close</a><img class="popphoto" src="images/businesscardtogether.pdf" style="max-height:512px;" alt="Sydney, Australia">
+</div>
+<div data-role="popup" id="popupNYC" data-overlay-theme="a" data-theme="d" data-corners="false">
+    <a href="#" data-rel="back" data-role="button" data-theme="a" data-icon="delete" data-iconpos="notext" class="ui-btn-right">Close</a><img class="popphoto" src="images/baby.jpeg" style="max-height:512px;" alt="New York, USA">
+</div>
+
+
+<a href="#popupParis1" data-rel="popup" data-position-to="window" data-transition="fade"><img class="popphoto" src="images/Diamonds.pdf" alt="Paris, France" style="width:30%"></a>
+<a href="#popupSydney1" data-rel="popup" data-position-to="window" data-transition="fade"><img class="popphoto" src="images/front.png" alt="Sydney, Australia" style="width:30%"></a>
+<a href="#popupNYC1" data-rel="popup" data-position-to="window" data-transition="fade"><img class="popphoto" src="images/back.png" alt="New York, USA" style="width:30%"></a>
+<div data-role="popup" id="popupParis1" data-overlay-theme="a" data-theme="d" data-corners="false">
+    <a href="#" data-rel="back" data-role="button" data-theme="a" data-icon="delete" data-iconpos="notext" class="ui-btn-right">Close</a><img class="popphoto" src="images/Diamonds.pdf" style="max-height:512px;" alt="Paris, France">
+</div>
+<div data-role="popup" id="popupSydney1" data-overlay-theme="a" data-theme="d" data-corners="false">
+    <a href="#" data-rel="back" data-role="button" data-theme="a" data-icon="delete" data-iconpos="notext" class="ui-btn-right">Close</a><img class="popphoto" src="images/front.png" style="max-height:512px;" alt="Sydney, Australia">
+</div>
+<div data-role="popup" id="popupNYC1" data-overlay-theme="a" data-theme="d" data-corners="false">
+    <a href="#" data-rel="back" data-role="button" data-theme="a" data-icon="delete" data-iconpos="notext" class="ui-btn-right">Close</a><img class="popphoto" src="images/back.png" style="max-height:512px;" alt="New York, USA">
+</div>
+     
+ <a href="#popupParis2" data-rel="popup" data-position-to="window" data-transition="fade"><img class="popphoto" src="images/RAINDROPGP2.pdf" alt="Paris, France" style="width:30%"></a>
+<a href="#popupSydney2" data-rel="popup" data-position-to="window" data-transition="fade"><img class="popphoto" src="images/dreamingbroken.pdf" alt="Sydney, Australia" style="width:30%"></a>
+
+<div data-role="popup" id="popupParis2" data-overlay-theme="a" data-theme="d" data-corners="false">
+    <a href="#" data-rel="back" data-role="button" data-theme="a" data-icon="delete" data-iconpos="notext" class="ui-btn-right">Close</a><img class="popphoto" src="images/RAINDROPGP2.pdf" style="max-height:512px;" alt="Paris, France">
+</div>
+<div data-role="popup" id="popupSydney2" data-overlay-theme="a" data-theme="d" data-corners="false">
+    <a href="#" data-rel="back" data-role="button" data-theme="a" data-icon="delete" data-iconpos="notext" class="ui-btn-right">Close</a><img class="popphoto" src="images/dreamingbroken.pdf" style="max-height:512px;" alt="Sydney, Australia">
+</div>
+   
+     
+ </div>
+       	
+</div>
+
+<!--Contact Nav Click-->
+ 
+ <div data-role="page" id="contact">
+    	<div data-role="footer" data-id="myfooter" data-position="fixed" class="ui-bar" id="footbar">
+       		<div data-role="controlgroup" data-type="horizontal" id="navvv">
+                <a href="#home" data-transition="slide" data-icon="home" id="homebar">Home</a>
+                <a href="#portfolio" data-transition="slide" data-icon="grid">Work</a>
+                <a href="#contact" data-transition="slide" data-icon="edit">Contact</a>
+      		</div>
+	</div>
+    <h1> I'd love to hear from you! </h1>
+    <div data-role="collapsible-set" data-theme="c" data-content-theme="d" data-icon="grid">
+    <div data-role="collapsible" id="collapse">
+        <h3>By Phone</h3>
+        <a href="tel:5095288001" >Call me!</a> <br><br>
+        <a href="sms:5095288001">Text Me! </a>
+    </div>
+    <div data-role="collapsible" id="collapse">
+        <h3>By Email</h3>
+        <a href="mailto:devjohnsen@gmail.com">devjohnsen@gmail.com</a> 
+    </div>
+    <div data-role="collapsible" data-icon="edit" id="collapse">
+        <h3>By Pigeon</h3>
+        <p>1112 Elm St <br> Cheney, WA 99004</p>
+    </div>
+    <div data-role="collapsible" data-icon="edit" id="collapse">
+        <h3>Twitter</h3>
+        <a href="www.twitter.com/devjohnsen">Follow Me</a>
+    </div>
+</div>
+     
+ </div>
+       	
+</div>
+
+ 
+
+
+	
+
+<!-- Scripts -->
+<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.js"></script>
+
+
+</body>
+</html>
